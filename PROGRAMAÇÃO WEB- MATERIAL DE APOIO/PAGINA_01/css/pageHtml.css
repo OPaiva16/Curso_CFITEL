@@ -1,0 +1,60 @@
+
+/* Organizando a lista de conteodo */
+.list_content ul li{
+    cursor: pointer;
+}
+.list_content li ul{
+    display: none;
+}
+
+ .list_content li:hover ul {
+     display: block;
+}
+
+.list_content ul li{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 40%;
+    height: 30px;
+    background-color: rgb(255, 255, 255,0.2);
+    padding-top: 10px;
+    
+}
+.list_content ul{
+    position: relative;
+    list-style: none;
+}
+.list_content ul ul{
+    position: absolute;
+    left: 56px;
+    right: 500px;
+    margin-left: 150px;
+    width: 900px ;
+}
+.list_content ul ul li{
+    text-align: center
+    ;
+}
+
+/* Mexendo no container principal */
+.conatiner-principal{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 35, 82, 0.2);
+    padding: 0 20px 0 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.list_content{
+    width: 40%;
+}
+.iframePDF{
+    margin-right: 40px;
+    margin-top: 50px  ;
+}
+.iframePDF iframe{
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+}

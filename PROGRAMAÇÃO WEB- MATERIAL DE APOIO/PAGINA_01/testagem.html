@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação de PDF com Lista</title>
+    <link rel="stylesheet" href="css/testStyle.css">
+</head>
+<body>
+
+<h1>Visualizar PDF com Navegação por Páginas</h1>
+<ul id="page-list">
+    <li onclick="goToPage(1)">Página 1</li>
+    <li onclick="goToPage(2)">Página 2</li>
+    <li onclick="goToPage(3)">Página 3</li>
+    <!-- Adicione mais páginas conforme necessário -->
+</ul>
+
+<canvas id="pdf-render"></canvas>
+
+<script src="JS/script.js"></script>
+
+</body>
+</html>

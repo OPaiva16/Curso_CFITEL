@@ -1,0 +1,21 @@
+#pdf-render {
+    border: 1px solid #000;
+    width: 100%;
+    height: 600px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+    cursor: pointer;
+    color: blue;
+}
+
+li:hover {
+    text-decoration: underline;
+}

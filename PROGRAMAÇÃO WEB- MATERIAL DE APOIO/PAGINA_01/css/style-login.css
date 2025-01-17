@@ -1,0 +1,97 @@
+
+body{
+    background-image: url("../img/BackgroundPG_principal_bluir.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* config container */
+.container{
+    display: flex;
+    margin: 100px 25px 0 300px;
+    border-radius: 10px;
+    justify-content: space-between;
+    height: 500px;
+    width: 50%;
+    background-color: rgb(255, 255, 255,0.2);
+    
+}
+/*Config Imagem */
+.container-img{
+    border-radius: 10px;
+    height: 500;
+    background-color: rgb(255, 255, 255,0.2);
+
+}
+.container-img img{
+    height: 240px;
+    padding-top: 120px;
+}
+/* Config login */
+.container-login{
+    text-align: center;
+    color: white;
+    margin-left: 45px;
+    margin-top: 75px;
+}
+.container-login form label,input{
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.container-login h1{
+    text-transform: uppercase;
+}
+
+
+.container-login form a{
+    text-decoration: none;
+    color: white;
+    
+}
+.container-login form input{
+    background: none;
+    border-radius: 10px;
+    width: 300px;
+    border-color: white;
+    padding: 3px;
+    
+}
+
+    
+.container-login form input[type="submit"]{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 70px;
+    
+}
+
+#adm{
+    display: flex;
+    margin-left: 1300px;
+    text-decoration: none;
+    color: rgb(13, 4, 145);
+}
+
+/* STYLE DO LOGIN ADM ***********************************9/
+/* config container */
+.container2{
+    display: flex;
+    margin: 100px 25px 0 300px;
+
+    justify-content: space-between;
+    height: 500px;
+    width: 50%;
+    background-color: rgba(211, 2, 2, 0.2);
+    
+}
+/*Config Imagem */
+.container2-img{
+
+    height: 500;
+    background-color: rgb(255, 255, 255,0.2);
+
+}
+.container2-img img{
+    height: 240px;
+    padding-top: 120px;
+}

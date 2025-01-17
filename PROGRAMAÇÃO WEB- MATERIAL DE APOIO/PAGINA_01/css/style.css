@@ -1,0 +1,133 @@
+/* navegação */
+nav{
+    background-color: rgba(19, 19, 33, 0.8);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+nav a{
+    
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+nav ul{
+    padding-top: 30px;
+}
+/* efeitos na nav */
+nav a:hover{
+    color: #00abf0;
+}
+
+/* cotainer dos cursos */
+.container-cursos-main {
+    text-align: center;
+    
+}
+
+.container-cursos img{
+    height: 100px;
+}
+.container-cursos-main p{
+    font-size: 30px;
+    margin-top: -16px;
+}
+.container-cursos{
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+.container-cursos p{
+    font-size: 16px;
+    
+}
+
+.container-cursos .card1, .card2,.card3,.card4{
+    height: 200px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(69, 69, 69);
+    padding: 8px;
+}
+
+
+/* CONTAINER PRINCIPAL******************* */
+
+.container-cursos-main{
+    margin: 10px 10px 0 100px;
+    height: 400px;
+    width: 80%;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+   
+    
+}
+.container-cursos-main a{
+    text-decoration: none;
+    color: white;
+}
+/* TRANSIÇÃO */
+.container-cursos-main a :hover{
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0 5px #333;
+    transform: scale(1.2);
+    transition: all 0.7s;
+}
+.container-cursos-main a{
+    transition: 0.7s;
+}
+/* footer */
+/* footer{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+.container-footer p{
+    font-size: 14px;
+    margin-top: -15px;
+}
+.container-footer{
+    margin-left: 350px;
+    width: 50%;
+    text-align: left;
+}
+footer img{
+    margin-top: 60px;
+    margin-left: 200px;
+} */
+
+body{
+    background-image: url("../img/BackgroundPG_principal_bluir.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+aside{
+    border: 1px solid black;
+    height: 500px;
+    
+    width: 50%;
+}
+
+.container-page{
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    text-align:center;
+    color: rgb(155, 154, 154);
+}
+footer p{
+    font-style: italic;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(155, 154, 154);
+
+}
+#anc :hover{
+    text-decoration: underline;
+}
